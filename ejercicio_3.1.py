@@ -13,6 +13,6 @@ while not n.isnumeric() or int(n)<1:
 while int(n)>=10:
     suma=0
     for caracter in str(n):
-        suma += int(n)
+        suma += int(caracter)
     n=suma
 print(n)
